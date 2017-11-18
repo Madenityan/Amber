@@ -1,0 +1,25 @@
+.form {
+  width: 210px;
+  border: 2px solid $color-form;
+  min-height: 30px;
+  padding-top: 4px;
+
+  ::-webkit-input-placeholder {
+    color: $color-input;
+    font-size: 15px;
+    padding-left: 15px;
+  }
+}
+
+.grey-color {
+  color: $color-input;
+}
+
+.input-area {
+  border: none;
+  -webkit-appearance: none;
+  width: 175px;
+  outline: none;
+  background-color: transparent;
+  color: $color-first;
+}

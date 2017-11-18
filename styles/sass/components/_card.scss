@@ -1,0 +1,181 @@
+.list-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-list-section {
+  margin-right: 30px;
+  overflow-y: hidden;
+  height: 290px;
+}
+
+.cards-list-section:last-child {
+  margin-right: 0;
+}
+
+
+.footer-cards {
+  background-color: $color-footer-cards;
+  min-height: 70px;
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+  position: relative;
+  bottom: 80px;
+}
+
+
+.text-card-wrapper {
+  width: 225px;
+  line-height: 25px;
+}
+
+.title-card {
+  color: $color-first;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.text-card {
+    color: $text-color;
+    font-size: 13px;
+  }
+
+.likes-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+
+  i {
+    color: $color-first;
+    padding-right: 5px;
+  }
+
+  span {
+    color:$text-color
+  }
+}
+
+.list-cards-blog {
+  display: flex;
+  justify-content: center;
+
+  .list-cards-article {
+    border-bottom: 1px solid $color-border;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    width: 290px;
+  }
+
+  .image-blog {
+    margin-bottom: 30px;
+  }
+
+  .title-blog {
+    font-size: $size-title;
+    color: $text-color;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .title-text {
+    font-size: $size-text;
+    color: $color-header;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .learn-more {
+    text-decoration: none;
+    color: $text-color;
+    font-size: $size-text;
+    margin-right: 155px;
+  }
+
+  .icon-blog {
+    color: $text-color;
+    margin-right: 5px;
+  }
+}
+
+.title-blog:hover, .learn-more:hover, .icon-blog:hover {
+  color: $color-hover-cards;
+}
+
+.list-team {
+
+  display: flex;
+  justify-content: center;
+
+ .card-team {
+    width: 210px;
+    margin-right: 30px;
+    text-align: center;
+     border: 1px solid $color-border;
+     box-sizing: content-box;
+
+   .button-transparent {
+     padding: 10px 40px 10px;
+     margin: 30px auto;
+   }
+
+   .button-transparent:hover {
+     background-color: $button-background;
+     color:$color-first;
+   }
+ }
+
+  li:last-child {
+    margin-right: 0;
+  }
+}
+
+.title-team {
+  border:1px solid $color-border;
+  width: 135px;
+  padding: 10px 0 10px;
+  background-color: $color-first;
+  margin-left: 35px;
+  position: relative;
+
+  h3 {
+    font-size: $size-text;
+    color: $text-color;
+    line-height: 20px;
+  }
+
+  span {
+    font-size: $size-text-2;
+    color: $color-border;
+  }
+ }
+
+.text-team {
+  text-align: center;
+  position: absolute;
+  bottom: 107px;
+  width: 210px;
+
+  p {
+    font-size: 12px;
+    line-height: 22px;
+    width: 210px;
+    padding: 60px 25px 0;
+    margin-top: -30px;
+    background-color: $color-first;
+    height: 120px;
+  }
+}
+
+.text-team:hover {
+  opacity: 0;
+}
+
+
+
+
+
+

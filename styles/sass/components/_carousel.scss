@@ -1,0 +1,30 @@
+.carousel-inner {
+  height: calc(100vmin - 55px);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon  {
+  background-image: none;
+}
+
+.carousel-indicators .active {
+  background-color: $text-color;
+}
+
+.text-carousel {
+  top: 375px;
+
+  .text-color {
+    color: $text-color;
+    margin-bottom: 15px;
+    font-size:55px;
+    font-weight: bold;
+  }
+  .text {
+    color: $color-first;
+    margin-bottom: 100px;
+  }
+
+  .button-section {
+    margin-right: 30px;
+  }
+}

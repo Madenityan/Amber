@@ -1,0 +1,272 @@
+@media screen and (max-width: 599px) {
+ .container {
+   width: 320px;
+   overflow: hidden;
+   padding-right: 10px;
+   padding-left: 10px;
+ }
+
+  .wrapper-header-top {
+      display: none;
+    }
+
+  .header-bottom .list-menu {
+
+    li{
+    border-top: none;
+    }
+  }
+  .wrapper-header-bottom {
+    padding-bottom: 5px;
+  }
+
+  .header-bottom {
+    width: 100%;
+
+    img {
+      width: 70px;
+      height: 30px;
+      margin-top: 5px;
+    }
+  }
+
+  .list-menu {
+
+    li {
+      padding-top: 0;
+    }
+
+    a {
+      font-size: 13px;
+    }
+  }
+
+  .wrapper-header-bottom  .menu-navigation .list-menu .nav-item {
+
+    a {
+      color: $color-first;
+    }
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+}
+
+  .navbar-light .navbar-toggler {
+    border: none;
+    margin-left: 25px;
+  }
+
+  #carouselExampleIndicators {
+    display: none;
+  }
+
+  .steal {
+    padding-top: 65px;
+    padding-bottom: 15px;
+  }
+
+    .header-section {
+      width: 100%;
+    }
+
+  .steal h2:after, .latest-works h2:after, .features h2:after, .blog h2:after, .expirience h2:after, .team h2:after {
+    width: 50px;
+    height: 5px;
+    margin: 15px auto 0;
+  }
+
+  .title-section {
+      font-size: 20px;
+      margin-bottom: 15px;
+   }
+
+  .text-header {
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+
+  .button-section, .button-transparent {
+    font-weight: bold;
+    border: 1px solid #02baab;
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+
+  .latest-works, .features, .quotation, .blog, .expirience, .team  {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .list-cards {
+    display: block;
+    width: 290px;
+    margin: 0 auto;
+  }
+
+  .cards-list-section {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .footer-cards {
+    width: 290px;
+  }
+
+ .buy-now {
+   text-align: center;
+
+   p {
+     font-size: 20px;
+     margin-left: 0;
+   }
+
+   .buy-now  {
+     margin-left: 0;
+   }
+
+  .button-transparent {
+     border: 1px solid $color-first;
+     font-size: 12px;
+     padding: 10px 20px;
+     margin-top: 20px;
+      margin-left: 0;
+   }
+
+  .icon-button {
+    margin-left: -19px;
+    vertical-align: middle;
+  }
+ }
+
+.features-list {
+  display: block;
+}
+
+  .features-list {
+    li {
+      width: 100%;
+      padding: 15px 0 0 0;
+    }
+  }
+
+  .text-list {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-left: 0;
+  }
+
+  .icon-list {
+    margin-right: 15px;
+  }
+
+  .blog {
+    text-align: center;
+  }
+
+  .quote {
+    width: auto;
+
+    p {
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 5px;
+    }
+
+    cite {
+      font-size: 12px;
+    }
+  }
+
+  .quote:before {
+    margin-bottom: 15px;
+  }
+
+
+  .list-cards-blog {
+    display: block;
+  }
+
+  .list-cards-blog .list-cards-article{
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .expirience-list {
+    display: block;
+    margin-left: 73px;
+  }
+
+  .expirience-image:last-child {
+    margin-right: 75px;
+  }
+
+  .expirience-image:after {
+    display: none;
+  }
+
+  .expirience-image {
+    margin-right: 75px;
+    margin-bottom: 20px;
+
+    span {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .radius-image-2 {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .team{
+    display: none;
+  }
+
+  .footer-list {
+    display: block;
+  }
+
+  .list-inform {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .footer-list h3 {
+    margin-bottom: 20px;
+  }
+
+  .contact p {
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .footer-top, .footer-bottom{
+    padding-bottom: 10px;
+  }
+
+  .footer-bottom {
+
+    button {
+      display: none;
+    }
+  }
+
+  .footer-bottom .icon-button {
+    display: none;
+  }
+
+  .footer-bottom .footer-botton-text {
+    font-size: 10px;
+    margin-left: 0;
+  }
+}

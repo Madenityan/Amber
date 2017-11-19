@@ -18,6 +18,10 @@
   padding: 10px 20px;
   cursor: pointer;
   background-color: transparent;
+  }
+
+button:focus{
+  outline: none;
 }
 
 .button-section:hover {

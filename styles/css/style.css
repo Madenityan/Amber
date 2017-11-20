@@ -970,65 +970,66 @@ body {
   /* line 35, ../sass/media.scss */
   .list-menu li {
     padding-top: 0;
+    border-bottom: 1px solid #c3c3c3;
   }
-  /* line 39, ../sass/media.scss */
+  /* line 40, ../sass/media.scss */
   .list-menu a {
     font-size: 13px;
   }
 
-  /* line 46, ../sass/media.scss */
+  /* line 47, ../sass/media.scss */
   .wrapper-header-bottom .menu-navigation .list-menu .nav-item a {
     color: #ffffff;
   }
 
-  /* line 50, ../sass/media.scss */
+  /* line 51, ../sass/media.scss */
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
   }
 
-  /* line 54, ../sass/media.scss */
+  /* line 55, ../sass/media.scss */
   .navbar-light .navbar-toggler {
     border: none;
     margin-left: 25px;
   }
 
-  /* line 59, ../sass/media.scss */
+  /* line 60, ../sass/media.scss */
   #carouselExampleIndicators {
     display: none;
   }
 
-  /* line 63, ../sass/media.scss */
+  /* line 64, ../sass/media.scss */
   .steal {
     padding-top: 65px;
     padding-bottom: 15px;
   }
 
-  /* line 68, ../sass/media.scss */
+  /* line 69, ../sass/media.scss */
   .header-section {
     width: 100%;
   }
 
-  /* line 72, ../sass/media.scss */
+  /* line 73, ../sass/media.scss */
   .steal h2:after, .latest-works h2:after, .features h2:after, .blog h2:after, .expirience h2:after, .team h2:after {
     width: 50px;
     height: 5px;
     margin: 15px auto 0;
   }
 
-  /* line 78, ../sass/media.scss */
+  /* line 79, ../sass/media.scss */
   .title-section {
     font-size: 20px;
     margin-bottom: 15px;
   }
 
-  /* line 83, ../sass/media.scss */
+  /* line 84, ../sass/media.scss */
   .text-header {
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 15px;
   }
 
-  /* line 89, ../sass/media.scss */
+  /* line 90, ../sass/media.scss */
   .button-section, .button-transparent {
     font-weight: bold;
     border: 1px solid #02baab;
@@ -1036,44 +1037,44 @@ body {
     padding: 10px 10px;
   }
 
-  /* line 96, ../sass/media.scss */
+  /* line 97, ../sass/media.scss */
   .latest-works, .features, .quotation, .blog, .expirience, .team {
     padding-top: 10px;
     padding-bottom: 15px;
   }
 
-  /* line 101, ../sass/media.scss */
+  /* line 102, ../sass/media.scss */
   .list-cards {
     display: block;
     width: 290px;
     margin: 0 auto;
   }
 
-  /* line 107, ../sass/media.scss */
+  /* line 108, ../sass/media.scss */
   .cards-list-section {
     margin-right: 0;
     margin-top: 20px;
   }
 
-  /* line 112, ../sass/media.scss */
+  /* line 113, ../sass/media.scss */
   .footer-cards {
     width: 290px;
   }
 
-  /* line 116, ../sass/media.scss */
+  /* line 117, ../sass/media.scss */
   .buy-now {
     text-align: center;
   }
-  /* line 119, ../sass/media.scss */
+  /* line 120, ../sass/media.scss */
   .buy-now p {
     font-size: 20px;
     margin-left: 0;
   }
-  /* line 124, ../sass/media.scss */
+  /* line 125, ../sass/media.scss */
   .buy-now .buy-now {
     margin-left: 0;
   }
-  /* line 128, ../sass/media.scss */
+  /* line 129, ../sass/media.scss */
   .buy-now .button-transparent {
     border: 1px solid #ffffff;
     font-size: 12px;
@@ -1081,66 +1082,66 @@ body {
     margin-top: 20px;
     margin-left: 0;
   }
-  /* line 136, ../sass/media.scss */
+  /* line 137, ../sass/media.scss */
   .buy-now .icon-button {
     margin-left: -19px;
     vertical-align: middle;
   }
 
-  /* line 142, ../sass/media.scss */
+  /* line 143, ../sass/media.scss */
   .features-list {
     display: block;
   }
 
-  /* line 147, ../sass/media.scss */
+  /* line 148, ../sass/media.scss */
   .features-list li {
     width: 100%;
     padding: 15px 0 0 0;
   }
 
-  /* line 153, ../sass/media.scss */
+  /* line 154, ../sass/media.scss */
   .text-list {
     font-size: 15px;
     line-height: 1.4;
     margin-left: 0;
   }
 
-  /* line 159, ../sass/media.scss */
+  /* line 160, ../sass/media.scss */
   .icon-list {
     margin-right: 15px;
   }
 
-  /* line 163, ../sass/media.scss */
+  /* line 164, ../sass/media.scss */
   .blog {
     text-align: center;
   }
 
-  /* line 167, ../sass/media.scss */
+  /* line 168, ../sass/media.scss */
   .quote {
     width: auto;
   }
-  /* line 170, ../sass/media.scss */
+  /* line 171, ../sass/media.scss */
   .quote p {
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 5px;
   }
-  /* line 176, ../sass/media.scss */
+  /* line 177, ../sass/media.scss */
   .quote cite {
     font-size: 12px;
   }
 
-  /* line 181, ../sass/media.scss */
+  /* line 182, ../sass/media.scss */
   .quote:before {
     margin-bottom: 15px;
   }
 
-  /* line 186, ../sass/media.scss */
+  /* line 187, ../sass/media.scss */
   .list-cards-blog {
     display: block;
   }
 
-  /* line 190, ../sass/media.scss */
+  /* line 191, ../sass/media.scss */
   .list-cards-blog .list-cards-article {
     width: 100%;
     padding-bottom: 15px;
@@ -1148,37 +1149,37 @@ body {
     margin-right: 0;
   }
 
-  /* line 197, ../sass/media.scss */
+  /* line 198, ../sass/media.scss */
   .expirience-list {
     display: block;
     margin-left: 73px;
   }
 
-  /* line 202, ../sass/media.scss */
+  /* line 203, ../sass/media.scss */
   .expirience-image:last-child {
     margin-right: 75px;
   }
 
-  /* line 206, ../sass/media.scss */
+  /* line 207, ../sass/media.scss */
   .expirience-image:after {
     display: none;
   }
 
-  /* line 210, ../sass/media.scss */
+  /* line 211, ../sass/media.scss */
   .expirience-image {
     margin-right: 75px;
     margin-bottom: 20px;
   }
-  /* line 214, ../sass/media.scss */
+  /* line 215, ../sass/media.scss */
   .expirience-image span {
     font-size: 25px;
   }
-  /* line 218, ../sass/media.scss */
+  /* line 219, ../sass/media.scss */
   .expirience-image p {
     font-size: 15px;
   }
 
-  /* line 223, ../sass/media.scss */
+  /* line 224, ../sass/media.scss */
   .radius-image-2 {
     width: 150px;
     height: 150px;
@@ -1186,52 +1187,318 @@ body {
     margin-bottom: 20px;
   }
 
-  /* line 230, ../sass/media.scss */
+  /* line 231, ../sass/media.scss */
   .team {
     display: none;
   }
 
-  /* line 234, ../sass/media.scss */
+  /* line 235, ../sass/media.scss */
   .footer-list {
     display: block;
   }
 
-  /* line 238, ../sass/media.scss */
+  /* line 239, ../sass/media.scss */
   .list-inform {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
   }
 
-  /* line 244, ../sass/media.scss */
+  /* line 245, ../sass/media.scss */
   .footer-list h3 {
     margin-bottom: 20px;
   }
 
-  /* line 248, ../sass/media.scss */
+  /* line 249, ../sass/media.scss */
   .contact p {
     line-height: 20px;
     margin-bottom: 15px;
   }
 
-  /* line 253, ../sass/media.scss */
+  /* line 254, ../sass/media.scss */
   .footer-top, .footer-bottom {
     padding-bottom: 10px;
   }
 
-  /* line 259, ../sass/media.scss */
+  /* line 260, ../sass/media.scss */
   .footer-bottom button {
     display: none;
   }
 
-  /* line 264, ../sass/media.scss */
+  /* line 265, ../sass/media.scss */
   .footer-bottom .icon-button {
     display: none;
   }
 
-  /* line 268, ../sass/media.scss */
+  /* line 269, ../sass/media.scss */
   .footer-bottom .footer-botton-text {
     font-size: 10px;
     margin-left: 0;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  /* line 278, ../sass/media.scss */
+  .container {
+    width: 600px;
+  }
+
+  /* line 284, ../sass/media.scss */
+  .header-bottom .list-menu li {
+    border-top: none;
+  }
+
+  /* line 288, ../sass/media.scss */
+  .wrapper-header-bottom {
+    padding-bottom: 10px;
+  }
+
+  /* line 292, ../sass/media.scss */
+  .header-bottom {
+    width: 100%;
+  }
+  /* line 295, ../sass/media.scss */
+  .header-bottom img {
+    width: 129px;
+    height: 48px;
+    margin-top: 5px;
+  }
+
+  /* line 304, ../sass/media.scss */
+  .list-menu li {
+    padding-top: 10px;
+    border-bottom: 1px solid #c3c3c3;
+  }
+  /* line 309, ../sass/media.scss */
+  .list-menu a {
+    font-size: 15px;
+  }
+
+  /* line 316, ../sass/media.scss */
+  .wrapper-header-bottom .menu-navigation .list-menu .nav-item a {
+    color: #ffffff;
+  }
+
+  /* line 320, ../sass/media.scss */
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+  }
+
+  /* line 324, ../sass/media.scss */
+  .navbar-light .navbar-toggler {
+    border: none;
+    margin-left: 25px;
+  }
+
+  /* line 329, ../sass/media.scss */
+  #carouselExampleIndicators {
+    display: none;
+  }
+
+  /* line 333, ../sass/media.scss */
+  .steal {
+    padding-top: 75px;
+    padding-bottom: 15px;
+  }
+
+  /* line 338, ../sass/media.scss */
+  .header-section {
+    width: 100%;
+  }
+
+  /* line 342, ../sass/media.scss */
+  .steal h2:after, .latest-works h2:after, .features h2:after, .blog h2:after, .expirience h2:after, .team h2:after {
+    width: 50px;
+    height: 5px;
+    margin: 20px auto 0;
+  }
+
+  /* line 348, ../sass/media.scss */
+  .title-section {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  /* line 353, ../sass/media.scss */
+  .text-header {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+
+  /* line 359, ../sass/media.scss */
+  .latest-works, .features, .quotation, .blog, .expirience, .team {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  /* line 364, ../sass/media.scss */
+  .list-cards {
+    display: block;
+    width: 290px;
+    margin: 0 auto;
+  }
+
+  /* line 370, ../sass/media.scss */
+  .cards-list-section {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  /* line 375, ../sass/media.scss */
+  .footer-cards {
+    width: 290px;
+  }
+
+  /* line 379, ../sass/media.scss */
+  .buy-now {
+    text-align: center;
+    margin-left: 0;
+  }
+  /* line 383, ../sass/media.scss */
+  .buy-now p {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  /* line 389, ../sass/media.scss */
+  .buy-now .button-white {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  /* line 395, ../sass/media.scss */
+  .features-list li {
+    width: 45%;
+    padding: 15px 0 0 0;
+    margin-right: 15px;
+  }
+
+  /* line 402, ../sass/media.scss */
+  .text-list {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-left: 0;
+  }
+
+  /* line 408, ../sass/media.scss */
+  .icon-list {
+    margin-right: 15px;
+  }
+
+  /* line 412, ../sass/media.scss */
+  .quote {
+    width: auto;
+  }
+  /* line 415, ../sass/media.scss */
+  .quote p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  /* line 421, ../sass/media.scss */
+  .quote cite {
+    font-size: 15px;
+  }
+
+  /* line 426, ../sass/media.scss */
+  .quote:before {
+    margin-bottom: 20px;
+  }
+
+  /* line 430, ../sass/media.scss */
+  .list-cards-blog {
+    display: block;
+    text-align: center;
+  }
+
+  /* line 435, ../sass/media.scss */
+  .list-cards-blog .list-cards-article {
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  /* line 442, ../sass/media.scss */
+  .expirience-list {
+    margin-left: 73px;
+  }
+
+  /* line 446, ../sass/media.scss */
+  .expirience-image:last-child {
+    margin-right: 75px;
+  }
+
+  /* line 450, ../sass/media.scss */
+  .expirience-image:after {
+    display: none;
+  }
+
+  /* line 454, ../sass/media.scss */
+  .expirience-image {
+    margin-right: 75px;
+    margin-bottom: 20px;
+  }
+  /* line 458, ../sass/media.scss */
+  .expirience-image span {
+    font-size: 25px;
+  }
+  /* line 462, ../sass/media.scss */
+  .expirience-image p {
+    font-size: 15px;
+  }
+
+  /* line 467, ../sass/media.scss */
+  .radius-image-2 {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 474, ../sass/media.scss */
+  .team {
+    display: none;
+  }
+
+  /* line 481, ../sass/media.scss */
+  .list-inform {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* line 487, ../sass/media.scss */
+  .footer-list h3 {
+    margin-bottom: 20px;
+  }
+
+  /* line 491, ../sass/media.scss */
+  .contact p {
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* line 496, ../sass/media.scss */
+  .maps {
+    width: 160px;
+    height: 130px;
+  }
+
+  /* line 501, ../sass/media.scss */
+  .footer-bottom .footer-botton-text {
+    font-size: 15px;
+    margin-left: 0;
+  }
+
+  /* line 506, ../sass/media.scss */
+  .footer-bottom-button {
+    margin-right: 0;
+  }
+}
+@media (min-width: 900px) {
+  /* line 514, ../sass/media.scss */
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
   }
 }

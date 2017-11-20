@@ -1,22 +1,26 @@
 /*
-Error: Undefined variable: "$color-first".
-        on line 47 of C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss
+Error: Undefined variable: "$color-border".
+        on line 37 of C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss
 
-42:   }
-43: 
-44:   .wrapper-header-bottom  .menu-navigation .list-menu .nav-item {
-45: 
-46:     a {
-47:       color: $color-first;
-48:     }
-49:   }
-50:   .navbar-light .navbar-toggler-icon {
-51:     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
-52: }
+32: 
+33:   .list-menu {
+34: 
+35:     li {
+36:       padding-top: 0;
+37:       border-bottom: 1px solid $color-border;
+38:     }
+39: 
+40:     a {
+41:       font-size: 13px;
+42:     }
 
 Backtrace:
-C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss:47
+C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss:37
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -92,4 +96,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-first\".\A         on line 47 of C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss\A \A 42:   }\A 43: \A 44:   .wrapper-header-bottom  .menu-navigation .list-menu .nav-item {\A 45: \A 46:     a {\A 47:       color: $color-first;\A 48:     }\A 49:   }\A 50:   .navbar-light .navbar-toggler-icon {\A 51:     background-image: url(\"data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>\");\A 52: }"; }
+  content: "Error: Undefined variable: \"$color-border\".\A         on line 37 of C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss\A \A 32: \A 33:   .list-menu {\A 34: \A 35:     li {\A 36:       padding-top: 0;\A 37:       border-bottom: 1px solid $color-border;\A 38:     }\A 39: \A 40:     a {\A 41:       font-size: 13px;\A 42:     }"; }

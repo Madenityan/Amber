@@ -7,20 +7,20 @@
 }
 
 .carousel-indicators .active {
-  background-color: $text-color;
+  background-color: $turquoise-color;
 }
 
 .text-carousel {
   top: 375px;
 
   .text-color {
-    color: $text-color;
+    color: $turquoise-color;
     margin-bottom: 15px;
     font-size:55px;
     font-weight: bold;
   }
   .text {
-    color: $color-first;
+    color: $main-color;
     margin-bottom: 100px;
   }
 

@@ -1,25 +1,22 @@
 .form {
-  width: 210px;
-  border: 2px solid $color-form;
+  border: 2px solid $gunmetal-grey;
   min-height: 30px;
   padding-top: 4px;
 
+  & .input-area {
+    border: none;
+    -webkit-appearance: none;
+    width: 175px;
+    outline: none;
+    background-color: transparent;
+    color: $main-color;
+  }
+
   ::-webkit-input-placeholder {
-    color: $color-input;
+    color: $paynes-grey;
     font-size: 15px;
     padding-left: 15px;
   }
 }
 
-.grey-color {
-  color: $color-input;
-}
 
-.input-area {
-  border: none;
-  -webkit-appearance: none;
-  width: 175px;
-  outline: none;
-  background-color: transparent;
-  color: $color-first;
-}

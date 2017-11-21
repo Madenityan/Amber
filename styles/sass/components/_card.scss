@@ -1,45 +1,46 @@
+/*--- WORKS ----*/
+
 .list-cards {
   display: flex;
   justify-content: center;
-}
 
-.cards-list-section {
-  margin-right: 30px;
-  overflow-y: hidden;
-  height: 290px;
-}
+  & .cards-list-section {
+    margin-right: 30px;
+    overflow-y: hidden;
+    height: 290px;
 
-.cards-list-section:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+    }
+  }
 }
-
 
 .footer-cards {
-  background-color: $color-footer-cards;
+  background-color: $color-corner;
   min-height: 70px;
   font-weight: bold;
   padding: 15px;
   display: flex;
   position: relative;
   bottom: 80px;
-}
+
+  & .text-card-wrapper {
+    width: 225px;
+    line-height: 25px;
 
 
-.text-card-wrapper {
-  width: 225px;
-  line-height: 25px;
-}
+    & .title-card {
+      color: $main-color;
+      line-height: 20px;
+      font-size: 14px;
+    }
 
-.title-card {
-  color: $color-first;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.text-card {
-    color: $text-color;
-    font-size: 13px;
+    & .text-card {
+      color: $turquoise-color;
+      font-size: 13px;
+    }
   }
+}
 
 .likes-wrapper {
   display: flex;
@@ -49,82 +50,90 @@
   text-align: center;
   line-height: 30px;
 
-  i {
-    color: $color-first;
+  & i {
+    color: $main-color;
     padding-right: 5px;
   }
 
-  span {
-    color:$text-color
+  & span {
+    color:$turquoise-color;
   }
 }
+
+/*--- BLOG ----*/
 
 .list-cards-blog {
   display: flex;
   justify-content: center;
 
-  .list-cards-article {
-    border-bottom: 1px solid $color-border;
+   & .list-cards-article {
+    border-bottom: 1px solid $color-platinum;
     margin-right: 30px;
     padding-bottom: 30px;
     width: 290px;
   }
 
-  .image-blog {
+  & .image-blog {
     margin-bottom: 30px;
   }
 
-  .title-blog {
-    font-size: $size-title;
-    color: $text-color;
+  & .title-blog {
+    font-size:24px;
+    color: $turquoise-color;
     font-weight: bold;
     margin-bottom: 30px;
   }
 
-  .title-text {
-    font-size: $size-text;
-    color: $color-header;
+  & .title-text {
+    font-size: 17px;
+    color: $color-black;
     line-height: 25px;
     margin-bottom: 30px;
   }
 
-  .learn-more {
+  & .learn-more {
     text-decoration: none;
-    color: $text-color;
-    font-size: $size-text;
+    color: $turquoise-color;
+    font-size: 14px;
     margin-right: 155px;
   }
 
-  .icon-blog {
-    color: $text-color;
+  & .icon-blog {
+    color: $turquoise-color;
     margin-right: 5px;
   }
 }
 
-.title-blog:hover, .learn-more:hover, .icon-blog:hover {
-  color: $color-hover-cards;
+.list-cards-article:last-child {
+  margin-right: 0;
 }
 
-.list-team {
+  .title-blog:hover, .learn-more:hover, .icon-blog:hover {
+  color: $color-fiolet;
+}
 
+
+/*--- TEAM----*/
+
+.list-team {
   display: flex;
   justify-content: center;
 
- .card-team {
+ & .card-team {
     width: 210px;
     margin-right: 30px;
     text-align: center;
-     border: 1px solid $color-border;
-     box-sizing: content-box;
+    border: 1px solid $color-platinum;
+    box-sizing: content-box;
 
-   .button-transparent {
+   & .button-transparent {
      padding: 10px 40px 10px;
      margin: 30px auto;
    }
 
-   .button-transparent:hover {
+   & .button-transparent:hover {
      background-color: $button-background;
-     color:$color-first;
+     color:$main-color;
    }
  }
 
@@ -134,22 +143,22 @@
 }
 
 .title-team {
-  border:1px solid $color-border;
+  border:1px solid $color-platinum;
   width: 135px;
   padding: 10px 0 10px;
-  background-color: $color-first;
+  background-color: $main-color;
   margin-left: 35px;
   position: relative;
 
-  h3 {
-    font-size: $size-text;
-    color: $text-color;
+  & h3 {
+    font-size: 15px;
+    color: $turquoise-color;
     line-height: 20px;
   }
 
-  span {
-    font-size: $size-text-2;
-    color: $color-border;
+  & span {
+    font-size: 13px;
+    color: $color-platinum;
   }
  }
 
@@ -159,13 +168,13 @@
   bottom: 107px;
   width: 210px;
 
-  p {
+  & p {
     font-size: 12px;
     line-height: 22px;
     width: 210px;
     padding: 60px 25px 0;
     margin-top: -30px;
-    background-color: $color-first;
+    background-color: $main-color;
     height: 120px;
   }
 }

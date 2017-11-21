@@ -1,0 +1,28 @@
+.wrapper-header-top{
+  background-color: $header-background-top;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.wrapper-header-bottom {
+  background-color: $header-background-bottom;
+  padding-bottom: 15px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    align-self: center;
+    margin-top: 20px;
+  }
+}

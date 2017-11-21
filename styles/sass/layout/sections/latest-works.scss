@@ -1,0 +1,26 @@
+.latest-works {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url('../../image/latest-section.png') top, rgba(52, 52, 52, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  width: 100%;
+
+  .header-section {
+
+    h2:after {
+      color: $main-color;
+    }
+  }
+}
+
+
+.latest-works {
+  .title-section  {
+    color:$main-color;
+  }
+
+  .text-header {
+    color:$main-color;
+  }
+}

@@ -1,0 +1,120 @@
+.footer-top, .footer-bottom {
+  background-color: $color-black;
+  padding-bottom: 50px;
+}
+
+.footer-list{
+  color: $main-color;
+  display: flex;
+  justify-content: center;
+
+  h3 {
+    color: $main-color;
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.contact{
+  p {
+    color: $color-platinum;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+  span {
+    color: $main-color;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-platinum;
+  }
+}
+
+.maps {
+  width: 210px;
+  height: 150px;
+}
+
+.list-inform {
+  width: 235px;
+  padding-top: 50px;
+  padding-right: 25px;
+}
+
+.list-inform:last-child {
+  padding-right: 0;
+}
+
+
+.tweets {
+  a {
+    text-decoration: none;
+    color: $turquoise-color;
+  }
+
+  p {
+    line-height: 30px;
+    margin-left: 30px;
+  }
+}
+
+.list-twwets {
+  margin-bottom: 23px;
+}
+
+.social-list {
+  p {
+    display: inline-block;
+    width: 140px;
+    margin-left: 15px;
+  }
+}
+
+.posts {
+
+  p {
+    color: $turquoise-color;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+}
+
+.footer-list {
+
+  li {
+    @for $i from 0 to 4 {
+      &:nth-child(#{$i+1}) {
+        border-top: 15px solid nth($color-list-footer, $i % length($color-list-footer) + 1);
+      }
+    }
+  }
+}
+
+.footer-bottom {
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-transparent {
+    font-size: 12px;
+    border: 2px solid $turquoise-color;
+  }
+
+  .icon-button {
+    color: $turquoise-color;
+  }
+}
+
+.footer-botton-text {
+  color:$main-color;
+  font-size: 10px;
+}
+

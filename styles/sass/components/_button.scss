@@ -2,56 +2,39 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  color: $color-input;
-}
-
-.button-submit:focus {
-  outline: -webkit-focus-ring-color auto 0;
-}
-
-.button-section, .button-transparent  {
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 3px solid $text-color;
-  font-size: 15px;
-  color:$text-color;
-  padding: 10px 20px;
-  cursor: pointer;
-  background-color: transparent;
-  }
-
-button:focus{
-  outline: none;
-}
-
-.button-section:hover {
-  background-color: $button-background;
-  color:$color-first;
-}
-
-.button-white {
-  border: 3px solid $color-first;
-  color: $color-first;
-  padding: 10px 40px 10px 10px;
-}
-
-.icon-button {
-  color: $color-first;
-  margin-left: -30px;
+  color: $paynes-grey;
 }
 
 .button-registration {
   display: flex;
+  padding: 0;
 
-  .button-registration-1 {
+  & .button-registration-1 {
     margin-right: 35px;
   }
-
-  .button-registration-1:last-child {
-    margin-right: 0;
-  }
-
-  .button-registration {
-    padding: 0;
-  }
 }
+
+ .button-section, .button-transparent {
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid $turquoise-color;
+    font-size: 15px;
+    color: $turquoise-color;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+
+.button-section:hover {
+  background-color: $button-background;
+  color:$main-color;
+}
+
+.button-white {
+  border: 3px solid $main-color;
+  color: $main-color;
+  padding: 10px 40px 10px 10px;
+}
+
+

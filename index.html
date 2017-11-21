@@ -15,16 +15,16 @@
                <form class="form" method="post" action="#">
                    <input type="search" class="input-area" name="q" placeholder="Search"/>
                    <button type="submit" class="button-submit">
-                        <i class="fa fa-search grey-color" aria-hidden="true"></i>
+                        <i class="fa fa-search icon-color" aria-hidden="true"></i>
                    </button>
                </form>
                <div class="button-registration">
                    <div class="button-registration-1">
-                       <i class="fa fa-user-circle-o grey-color" aria-hidden="true"></i>
+                       <i class="fa fa-user-circle-o icon-color" aria-hidden="true"></i>
                        <button type="submit" class="button-submit button">Login</button>
                    </div>
                    <div class="button-registration-2">
-                       <i class="fa fa-pencil grey-color" aria-hidden="true"></i>
+                       <i class="fa fa-pencil icon-color" aria-hidden="true"></i>
                        <button type="submit" class="button-submit button">Register</button>
                    </div>
                </div>
@@ -35,19 +35,20 @@
       <div class="container">
           <header class="header-bottom">
              <img src="image/logo.png" alt="logo">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse menu-navigation" id="navbarNav">
+                  <a class="navbar-brand" href="#"></a>
+                  <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="list-menu nav navbar-nav">
-                          <li class="nav-1 nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a></li>
-                          <li class="nav-2 nav-item"><a class="nav-link" href="#">Typography</a></li>
-                          <li class="nav-3 nav-item"><a class="nav-link" href="#">Blog</a></li>
-                          <li class="nav-4 nav-item"><a class="nav-link" href="#">Pages</a></li>
-                          <li class="nav-5 nav-item"><a class="nav-link" href="#">Elements</a></li>
-                          <li class="nav-6 nav-item"><a class="nav-link" href="#">Ecommerce</a></li>
-                          <li class="nav-7 nav-item"><a class="nav-link" href="#">Mega Menu</a></li>
+                          <li class="nav nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a></li>
+                          <li class="nav nav-item"><a class="nav-link" href="#">Typography</a></li>
+                          <li class="nav nav-item"><a class="nav-link" href="#">Blog</a></li>
+                          <li class="nav nav-item"><a class="nav-link" href="#">Pages</a></li>
+                          <li class="nav nav-item"><a class="nav-link" href="#">Elements</a></li>
+                          <li class="nav nav-item"><a class="nav-link" href="#">Ecommerce</a></li>
+                          <li class="nav nav-item"><a class="nav-link" href="#">Mega Menu</a></li>
                       </ul>
                   </div>
               </nav>
@@ -68,10 +69,12 @@
                <div class="carousel-item active">
                    <img class="d-block w-100" src="image/carousel.png" alt="First slide">
                    <div class="carousel-caption d-none d-md-block text-carousel">
-                        <p class="text-color">Creating a unique look.</p>
-                        <p class="text text-color">Never been easier.</p>
-                       <button class="button-section">See Features</button>
-                       <button class="button-section">Purchase Now</button>
+                       <div class="carousel-wrapper">
+                            <p class="text-color">Creating a unique look.</p>
+                            <p class="text text-color">Never been easier.</p>
+                           <button class="button-section">See Features</button>
+                           <button class="button-section">Purchase Now</button>
+                        </div>
                    </div>
                </div>
                <div class="carousel-item">
@@ -357,15 +360,26 @@
            </li>
            <li class="list-inform social-list">
                <h3>Follow us</h3>
-               <i class="fa fa-facebook icon-social" aria-hidden="true"></i>
+               <div class="icon-facebook icon">
+                   <i class="fa fa-facebook fa-2x icon-brend" aria-hidden="true"></i>
+               </div>
                <p>Like us on Facebook</p>
-               <i class="fa fa-twitter icon-social" aria-hidden="true"></i>
+               <div class="icon-twitter icon">
+                    <i class="fa fa-twitter fa-2x icon-brend" aria-hidden="true"></i>
+               </div>
                <p>Like us on Twitter</p>
-               <i class="fa fa-youtube icon-social" aria-hidden="true"></i>
+               <div class="icon-youtube icon">
+                    <i class="fa fa-youtube fa-2x icon-brend" aria-hidden="true"></i>
+               </div>
                <p>Watch videos on YouTube</p>
-               <i class="fa fa-instagram icon-social" aria-hidden="true"></i>
+
+               <div class="icon-instagram icon">
+                    <i class="fa fa-instagram fa-2x icon-brend" aria-hidden="true"></i>
+               </div>
                <p>Friend us on Instagram</p>
-               <i class="fa fa-pinterest-p icon-social" aria-hidden="true"></i>
+               <div class="icon-pinterest icon">
+                    <i class="fa fa-pinterest-p fa-2x icon-brend" aria-hidden="true"></i>
+               </div>
                <p>Repin on Pinterest</p>
            </li>
            <li class="list-inform posts">

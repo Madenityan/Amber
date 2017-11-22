@@ -1,6 +1,6 @@
 @import 'reset';
+@import 'base/variables';
 
-@import 'components/variables';
 @import 'components/button';
 @import 'components/card';
 @import 'components/nav';
@@ -9,23 +9,26 @@
 @import "components/icon";
 
 @import 'layout/common';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sections/steal';
-@import 'layout/sections/latest-works';
-@import 'layout/sections/buy';
-@import 'layout/sections/features';
-@import 'layout/sections/quotation';
-@import 'layout/sections/blog';
-@import 'layout/sections/expirience';
-@import 'layout/sections/team';
 
-@import 'media';
+@import 'layout/pages/home/header';
+@import 'layout/pages/home/footer';
+@import 'layout/pages/home/sections/steal';
+@import 'layout/pages/home/sections/latest-works';
+@import 'layout/pages/home/sections/buy';
+@import 'layout/pages/home/sections/features';
+@import 'layout/pages/home/sections/quotation';
+@import 'layout/pages/home/sections/blog';
+@import 'layout/pages/home/sections/expirience';
+@import 'layout/pages/home/sections/team';
 
 
-//<i class="fa fa-link" aria-hidden="true"></i>
-//<i class="fa fa-search-plus" aria-hidden="true"></i>
-//<i class="fa fa-heart" aria-hidden="true">
+@import 'layout/pages/blog/header';
+
+
+
+
+
+@import 'layout/pages/home/media';
 
 
 

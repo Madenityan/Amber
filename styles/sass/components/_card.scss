@@ -8,6 +8,9 @@
     margin-right: 30px;
     overflow-y: hidden;
     height: 290px;
+    width: 290px;
+    position: relative;
+
 
   &:last-child {
     margin-right: 0;
@@ -59,6 +62,42 @@
     color:$turquoise-color;
   }
 }
+
+.hover-works {
+  display: none;
+  position: absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  top:0;
+}
+
+.cards-list-section:hover .hover-works{
+  background:rgba(52, 52, 52, 0.6);
+  display: block;
+  cursor: pointer;
+}
+
+.cards-list-section:hover .footer-cards {
+  display: none;
+  cursor: pointer;
+}
+.icon-works {
+  margin-top: 40px;
+ & i {
+    display: block;
+    padding: 9px;
+    background-color: $turquoise-color;
+    color: $main-color;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom:10px;
+    text-align: center;
+  }
+}
+
 
 /*--- BLOG ----*/
 
@@ -137,6 +176,10 @@
    }
  }
 
+  .card-team:hover .text-team{
+   display: none;
+ }
+
   li:last-child {
     margin-right: 0;
   }
@@ -179,9 +222,6 @@
   }
 }
 
-.text-team:hover {
-  opacity: 0;
-}
 
 
 

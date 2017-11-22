@@ -31,7 +31,7 @@
   }
 
   .list-menu {
-    margin-top: 5px;
+    margin-top: 15px;
 
     li {
       padding-top: 0;
@@ -40,6 +40,10 @@
 
     a {
       font-size: 13px;
+    }
+
+    .nav {
+      padding-top: 15px;
     }
   }
 
@@ -52,6 +56,7 @@
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
     margin-right: 7px;
+    margin-top: 4px;
 }
 
   .navbar-light .navbar-toggler {
@@ -64,7 +69,7 @@
     padding-bottom: 15px;
   }
 
-    .header-section {
+    section .header-section {
       width: 100%;
     }
 
@@ -74,7 +79,7 @@
     margin: 15px auto 0;
   }
 
-  .title-section {
+  section .title-section {
       font-size: 20px;
       margin-bottom: 15px;
    }
@@ -97,14 +102,13 @@
     padding-bottom: 15px;
   }
 
-  .list-cards {
+  .list-cards, .cards-list-section {
     display: block;
     width: 290px;
     margin: 0 auto;
   }
 
   .cards-list-section {
-    margin-right: 0;
     margin-top: 20px;
   }
 
@@ -116,7 +120,7 @@
    text-align: center;
 
    p {
-     font-size: 20px;
+     font-size: 17px;
      margin-left: 0;
    }
 
@@ -149,10 +153,15 @@
     }
   }
 
-  .text-list {
+  .features-list .text-list {
     font-size: 15px;
     line-height: 1.4;
     margin-left: 0;
+  }
+
+  .features-list .title-features-list {
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .icon-list {
@@ -191,6 +200,20 @@
     padding-bottom: 15px;
     margin-bottom: 20px;
     margin-right: 0;
+  }
+
+  .list-cards-blog .title-blog {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .list-cards-blog .title-text {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .list-cards-blog .image-blog {
+    margin-bottom: 15px;
   }
 
   .expirience-list {
@@ -260,6 +283,11 @@
     }
   }
 
+  .social-list p {
+    width: 164px;
+    margin-left: 15px;
+  }
+
   .footer-bottom .icon-button {
     display: none;
   }
@@ -270,7 +298,7 @@
   }
 
   .footer-bottom .footer-botton-text {
-    font-size: 15px;
+    font-size: 12px;
     margin-left: 0;
   }
 
@@ -278,16 +306,8 @@
     margin-right: 0;
   }
 
-  .carousel-inner img {
-    height: auto;
-    width: 100%;
-  }
-  .text-carousel .text {
-    margin-bottom: 30px;
-  }
-
-  .text-carousel .text-color {
-    font-size: 15px;
+  #carouselExampleIndicators {
+    display: none;
   }
 
 }
@@ -338,6 +358,7 @@
   }
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+    margin-top: 12px;
   }
 
   .navbar-light .navbar-toggler {
@@ -350,7 +371,7 @@
     padding-bottom: 15px;
   }
 
-  .header-section {
+  section .header-section {
     width: 100%;
   }
 
@@ -374,6 +395,10 @@
   .latest-works, .features, .quotation, .blog, .expirience, .team {
     padding-top: 20px;
     padding-bottom: 15px;
+  }
+
+  .list-cards .cards-list-section {
+    margin-right: 0;
   }
 
   .list-cards {
@@ -410,8 +435,13 @@
     li {
       width: 45%;
       padding: 15px 0 0 0;
-      margin-right: 15px;
+      margin-right: 25px;
+      text-align: justify;
     }
+  }
+
+   section .title-section {
+   margin-bottom: 30px;
   }
 
   .text-list {
@@ -421,7 +451,17 @@
   }
 
   .icon-list {
-    margin-right: 15px;
+    margin-right: 22px;
+  }
+
+  .features-list .title-features-list {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+
+  .features-list .text-list {
+    font-size: 15px;
+    margin-left: 0;
   }
 
   .quote {
@@ -463,7 +503,9 @@
   }
 
   .expirience-image:after {
-    display: none;
+    font-size: 60px;
+    left: 165px;
+    bottom: 220px;
   }
 
   .expirience-image {
@@ -491,6 +533,8 @@
   }
 
   .footer-list {
+    display: block;
+    text-align: center;
   }
 
   .list-inform {
@@ -503,18 +547,31 @@
     margin-bottom: 20px;
   }
 
+  .icon-social {
+    float: none;
+  }
+
   .contact p {
     line-height: 20px;
     margin-bottom: 15px;
+    font-size: 12px;
   }
 
   .maps {
     width: 160px;
     height: 130px;
+   }
+
+  .social-list {
+    p {
+      display: none;
+    }
+    .icon {
+      margin-right: 20px;
+    }
   }
 
   .footer-bottom .footer-botton-text {
-    font-size: 15px;
     margin-left: 0;
   }
 
@@ -534,9 +591,6 @@
     font-size: 35px;
   }
 
-  .carousel-inner {
-    height: auto;
-  }
 }
 
 

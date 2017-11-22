@@ -3,7 +3,7 @@ Error: Undefined variable: "$color-platinum".
         on line 38 of C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss
 
 33:   .list-menu {
-34:     margin-top: 5px;
+34:     margin-top: 15px;
 35: 
 36:     li {
 37:       padding-top: 0;
@@ -96,4 +96,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-platinum\".\A         on line 38 of C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss\A \A 33:   .list-menu {\A 34:     margin-top: 5px;\A 35: \A 36:     li {\A 37:       padding-top: 0;\A 38:       border-bottom: 1px solid $color-platinum;\A 39:     }\A 40: \A 41:     a {\A 42:       font-size: 13px;\A 43:     }"; }
+  content: "Error: Undefined variable: \"$color-platinum\".\A         on line 38 of C:/Users/haltaction/Desktop/home work/Amber/styles/sass/media.scss\A \A 33:   .list-menu {\A 34:     margin-top: 15px;\A 35: \A 36:     li {\A 37:       padding-top: 0;\A 38:       border-bottom: 1px solid $color-platinum;\A 39:     }\A 40: \A 41:     a {\A 42:       font-size: 13px;\A 43:     }"; }

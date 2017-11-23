@@ -51,3 +51,30 @@ section {
     margin: 30px auto 0;
   }
 }
+
+.blog-grid-view .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.blog-grid-view {
+  background: url('../../image/blog-page.png') top, rgba(102, 102, 102, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.blog-header {
+
+  h2 {
+    color: $main-color;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}
+
+
+

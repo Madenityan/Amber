@@ -1,0 +1,15 @@
+.breadcrumb {
+  background-color: transparent;
+  margin-top: 53px;
+  padding: 0;
+
+  a {
+    color: $color-platinum;
+    text-decoration: none;
+    font-size: 15px;
+  }
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: $color-platinum;
+}

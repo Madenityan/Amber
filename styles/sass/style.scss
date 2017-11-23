@@ -7,11 +7,14 @@
 @import 'components/form';
 @import 'components/carousel';
 @import "components/icon";
+@import 'components/breadcrumb';
+@import "components/pagination";
+@import 'components/tooltips';
 
 @import 'layout/common';
 
-@import 'layout/pages/home/header';
-@import 'layout/pages/home/footer';
+@import 'layout/header';
+@import 'layout/footer';
 @import 'layout/pages/home/sections/steal';
 @import 'layout/pages/home/sections/latest-works';
 @import 'layout/pages/home/sections/buy';
@@ -20,9 +23,10 @@
 @import 'layout/pages/home/sections/blog';
 @import 'layout/pages/home/sections/expirience';
 @import 'layout/pages/home/sections/team';
+@import 'layout/pages/blog/blog-article';
+@import 'layout/pages/blog/blog-2';
 
 
-@import 'layout/pages/blog/header';
 
 
 

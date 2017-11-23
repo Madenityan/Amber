@@ -1,0 +1,15 @@
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: $color-orange;
+  color: white;
+}
+
+.btn-secondary {
+  border: none;
+  border-color:$color-orange;
+}
+
+.btn {
+  border-radius: 0;
+  vertical-align: baseline;
+}

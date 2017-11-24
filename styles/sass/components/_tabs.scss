@@ -1,0 +1,25 @@
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: $turquoise-color;
+  border-radius: 0;
+  font-size: 15px;
+}
+
+.nav-tabs .nav-link.active {
+  color: $color-black;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-top: 5px solid $color-platinum;
+}
+
+.nav-tabs .nav-link {
+  padding: 0;
+  margin: 10px 15px 25px;
+}
+

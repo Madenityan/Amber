@@ -604,6 +604,36 @@ table {
   vertical-align: baseline;
 }
 
+/* line 1, ../sass/components/_tabs.scss */
+.nav-tabs {
+  border: none;
+}
+
+/* line 5, ../sass/components/_tabs.scss */
+.nav-tabs .nav-link {
+  border: none;
+  color: #02baab;
+  border-radius: 0;
+  font-size: 15px;
+}
+
+/* line 12, ../sass/components/_tabs.scss */
+.nav-tabs .nav-link.active {
+  color: #000000;
+}
+
+/* line 16, ../sass/components/_tabs.scss */
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-top: 5px solid #c3c3c3;
+}
+
+/* line 21, ../sass/components/_tabs.scss */
+.nav-tabs .nav-link {
+  padding: 0;
+  margin: 10px 15px 25px;
+}
+
 /* line 2, ../sass/layout/_common.scss */
 body {
   font: 100% 'Oxygen', sans-serif;
@@ -1569,6 +1599,61 @@ section .text-header {
 .comment-2 {
   width: 660px;
   margin-left: 30px;
+}
+
+/* line 1, ../sass/layout/pages/portfolio/_portfolio.scss */
+.portfolio-title {
+  margin-top: 43px;
+}
+
+/* line 5, ../sass/layout/pages/portfolio/_portfolio.scss */
+.portfilio {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/* line 10, ../sass/layout/pages/portfolio/_portfolio.scss */
+.header-portfolio {
+  margin-bottom: 50px;
+}
+/* line 13, ../sass/layout/pages/portfolio/_portfolio.scss */
+.header-portfolio p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 20, ../sass/layout/pages/portfolio/_portfolio.scss */
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 25, ../sass/layout/pages/portfolio/_portfolio.scss */
+.portfolio-list li {
+  margin-bottom: 30px;
+}
+
+/* line 30, ../sass/layout/pages/portfolio/_portfolio.scss */
+.portfolio-list .cards-list-section:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* line 34, ../sass/layout/pages/portfolio/_portfolio.scss */
+.icon-portfolio {
+  color: #02baab;
+  text-align: center;
+}
+/* line 38, ../sass/layout/pages/portfolio/_portfolio.scss */
+.icon-portfolio a {
+  font-size: 15px;
+  display: block;
+  text-decoration: none;
+  color: #02baab;
+  font-weight: bold;
+}
+/* line 46, ../sass/layout/pages/portfolio/_portfolio.scss */
+.icon-portfolio i {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 599px) {

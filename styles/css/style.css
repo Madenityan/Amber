@@ -426,7 +426,7 @@ table {
 }
 
 /* line 5, ../sass/components/_carousel.scss */
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.icon-main-carousel {
   background-image: none;
 }
 
@@ -615,23 +615,21 @@ table {
   color: #02baab;
   border-radius: 0;
   font-size: 15px;
+  padding: 0;
+  padding-top: 10px;
+  margin: 10px 15px 25px;
 }
 
-/* line 12, ../sass/components/_tabs.scss */
+/* line 15, ../sass/components/_tabs.scss */
 .nav-tabs .nav-link.active {
   color: #000000;
 }
 
-/* line 16, ../sass/components/_tabs.scss */
+/* line 19, ../sass/components/_tabs.scss */
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
   border-top: 5px solid #c3c3c3;
-}
-
-/* line 21, ../sass/components/_tabs.scss */
-.nav-tabs .nav-link {
-  padding: 0;
-  margin: 10px 15px 25px;
+  padding-top: 5px;
 }
 
 /* line 2, ../sass/layout/_common.scss */
@@ -1654,6 +1652,138 @@ section .text-header {
 /* line 46, ../sass/layout/pages/portfolio/_portfolio.scss */
 .icon-portfolio i {
   font-size: 20px;
+}
+
+/* line 1, ../sass/layout/pages/team/works-page.scss */
+.carousel-works {
+  padding-top: 50px;
+}
+
+/* line 5, ../sass/layout/pages/team/works-page.scss */
+.carousel-works-page {
+  width: 690px;
+}
+
+/* line 9, ../sass/layout/pages/team/works-page.scss */
+.buttons-works-page {
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+/* line 12, ../sass/layout/pages/team/works-page.scss */
+.buttons-works-page i {
+  font-size: 25px;
+  color: #ffae00;
+  border: 2px solid #eeeeee;
+  padding: 5px 15px;
+}
+/* line 19, ../sass/layout/pages/team/works-page.scss */
+.buttons-works-page i:hover {
+  border: 2px solid #ffae00;
+}
+
+/* line 26, ../sass/layout/pages/team/works-page.scss */
+.likes-work i {
+  color: #c3c3c3;
+  margin-right: 10px;
+}
+/* line 31, ../sass/layout/pages/team/works-page.scss */
+.likes-work span {
+  color: #c3c3c3;
+  font-weight: bold;
+}
+
+/* line 38, ../sass/layout/pages/team/works-page.scss */
+.carousel-works .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 44, ../sass/layout/pages/team/works-page.scss */
+.carousel-icon {
+  background-color: #ffae00;
+  width: 40px;
+  height: 40px;
+  background-size: 15px;
+}
+
+/* line 52, ../sass/layout/pages/team/works-page.scss */
+.sidebar-works {
+  width: 205px;
+}
+
+/* line 56, ../sass/layout/pages/team/works-page.scss */
+.progect-info {
+  margin-top: 30px;
+}
+/* line 59, ../sass/layout/pages/team/works-page.scss */
+.progect-info h3 {
+  color: #ffae00;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 66, ../sass/layout/pages/team/works-page.scss */
+.progect-info p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 20px;
+  color: #3b4954;
+}
+
+/* line 76, ../sass/layout/pages/team/works-page.scss */
+.work-description h3 {
+  font-weight: bold;
+  color: #3b4954;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+/* line 83, ../sass/layout/pages/team/works-page.scss */
+.work-description .button-transparent {
+  color: #ffae00;
+  border: 3px solid #ffae00;
+  padding: 10px 15px;
+}
+
+/* line 90, ../sass/layout/pages/team/works-page.scss */
+.work-description-list {
+  margin-bottom: 50px;
+}
+/* line 93, ../sass/layout/pages/team/works-page.scss */
+.work-description-list i {
+  color: #ffae00;
+  display: inline-block;
+  width: 15px;
+  margin-right: 20px;
+}
+/* line 100, ../sass/layout/pages/team/works-page.scss */
+.work-description-list i:last-child {
+  margin-right: 0;
+}
+/* line 104, ../sass/layout/pages/team/works-page.scss */
+.work-description-list li {
+  width: 165px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 30px;
+  color: #3b4954;
+}
+
+/* line 113, ../sass/layout/pages/team/works-page.scss */
+.social-share {
+  margin-top: 30px;
+}
+
+/* line 117, ../sass/layout/pages/team/works-page.scss */
+.article-share-works {
+  margin-bottom: 100px;
+  text-align: center;
+}
+/* line 121, ../sass/layout/pages/team/works-page.scss */
+.article-share-works i {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 599px) {

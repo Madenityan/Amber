@@ -1,0 +1,127 @@
+.carousel-works {
+  padding-top: 50px;
+}
+
+.carousel-works-page {
+  width: 690px;
+}
+
+.buttons-works-page {
+    cursor: pointer;
+    margin-bottom: 50px;
+  i {
+    font-size: 25px;
+    color: $color-safety-orange;
+    border: 2px solid $light-grey;
+    padding: 5px 15px;
+  }
+
+  i:hover {
+    border: 2px solid $color-safety-orange;
+
+  }
+}
+
+.likes-work {
+  i {
+    color: $color-platinum;
+    margin-right: 10px;
+  }
+
+  span {
+    color: $color-platinum;
+    font-weight: bold;
+  }
+}
+
+.carousel-works {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.carousel-icon {
+  background-color: $color-safety-orange;
+  width: 40px;
+  height: 40px;
+  background-size: 15px;
+}
+
+
+.sidebar-works {
+  width: 205px;
+}
+
+.progect-info {
+  margin-top: 30px;
+
+  h3 {
+    color: $color-safety-orange;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    color: $color-dark;
+  }
+}
+
+.work-description {
+
+  h3 {
+    font-weight: bold;
+    color: $color-dark;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .button-transparent {
+    color: $color-safety-orange;
+    border: 3px solid $color-safety-orange;
+    padding: 10px 15px;
+  }
+}
+
+.work-description-list {
+    margin-bottom: 50px;
+
+  i {
+    color: $color-safety-orange;
+    display: inline-block;
+    width: 15px;
+    margin-right: 20px;
+  }
+
+  i:last-child {
+    margin-right: 0;
+  }
+
+  li {
+    width: 165px;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 30px;
+    color: $color-dark;
+  }
+}
+
+.social-share {
+  margin-top: 30px;
+}
+
+.article-share-works {
+  margin-bottom: 100px;
+  text-align: center;
+
+  i {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    font-size: 15px;
+  }
+}

@@ -7,6 +7,9 @@
   color: $turquoise-color;
   border-radius: 0;
   font-size: 15px;
+  padding: 0;
+  padding-top: 10px;
+  margin: 10px 15px 25px;
 }
 
 .nav-tabs .nav-link.active {
@@ -16,10 +19,6 @@
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
   border-top: 5px solid $color-platinum;
-}
-
-.nav-tabs .nav-link {
-  padding: 0;
-  margin: 10px 15px 25px;
+  padding-top: 5px;
 }
 

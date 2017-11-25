@@ -1,0 +1,97 @@
+@media screen and (max-width: 599px) {
+  /* line 3, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-works .container {
+    display: block;
+  }
+
+  /* line 7, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-works {
+    padding-top: 30px;
+  }
+
+  /* line 11, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-works-page {
+    width: 100%;
+  }
+
+  /* line 15, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-item {
+    height: 430px;
+  }
+
+  /* line 19, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-inner {
+    height: 100%;
+  }
+
+  /* line 23, ../../../../sass/layout/pages/works/media-works.scss */
+  .sidebar-works {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  /* line 28, ../../../../sass/layout/pages/works/media-works.scss */
+  .buttons-works-page {
+    margin-bottom: 25px;
+  }
+
+  /* line 32, ../../../../sass/layout/pages/works/media-works.scss */
+  .article-share-works {
+    margin-bottom: 30px;
+  }
+
+  /* line 36, ../../../../sass/layout/pages/works/media-works.scss */
+  .work-description-list {
+    margin-bottom: 25px;
+  }
+  /* line 40, ../../../../sass/layout/pages/works/media-works.scss */
+  .work-description-list li {
+    width: 87%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  /* line 49, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-works .container {
+    display: block;
+  }
+
+  /* line 53, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-works-page {
+    width: 100%;
+  }
+
+  /* line 57, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-slide {
+    height: 600px;
+  }
+
+  /* line 61, ../../../../sass/layout/pages/works/media-works.scss */
+  .carousel-slide-inner {
+    height: 100%;
+  }
+
+  /* line 65, ../../../../sass/layout/pages/works/media-works.scss */
+  .sidebar-works {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  /* line 70, ../../../../sass/layout/pages/works/media-works.scss */
+  .buttons-works-page {
+    margin-bottom: 25px;
+  }
+
+  /* line 74, ../../../../sass/layout/pages/works/media-works.scss */
+  .article-share-works {
+    margin-bottom: 30px;
+  }
+
+  /* line 78, ../../../../sass/layout/pages/works/media-works.scss */
+  .work-description-list {
+    margin-bottom: 25px;
+  }
+  /* line 82, ../../../../sass/layout/pages/works/media-works.scss */
+  .work-description-list li {
+    width: 93%;
+  }
+}

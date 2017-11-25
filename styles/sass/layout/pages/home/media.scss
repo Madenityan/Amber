@@ -309,7 +309,6 @@
   #carouselExampleIndicators {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
@@ -579,16 +578,24 @@
     margin-right: 0;
   }
 
-  .carousel-inner img {
-    height: auto;
-    width: 100%;
-}
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .carousel-item {
+    height: 500px;
+  }
+
   .text-carousel .text {
     margin-bottom: 30px;
   }
 
   .text-carousel .text-color {
     font-size: 35px;
+  }
+
+  .text-carousel {
+    top:200px;
   }
 
 }

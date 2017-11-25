@@ -1,0 +1,23 @@
+@media screen and (max-width: 599px) {
+  /* line 3, ../../../../sass/layout/pages/portfolio/media-portfolio.scss */
+  .portfilio {
+    padding-bottom: 50px;
+  }
+
+  /* line 7, ../../../../sass/layout/pages/portfolio/media-portfolio.scss */
+  .header-portfolio {
+    margin-bottom: 0;
+  }
+
+  /* line 11, ../../../../sass/layout/pages/portfolio/media-portfolio.scss */
+  .nav-tabs .nav-link {
+    margin: 10px 6px 23px;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  /* line 19, ../../../../sass/layout/pages/portfolio/media-portfolio.scss */
+  .header-portfolio {
+    margin-bottom: 0;
+  }
+}

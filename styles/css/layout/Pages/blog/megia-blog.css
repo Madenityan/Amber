@@ -1,0 +1,63 @@
+@media screen and (max-width: 599px) {
+  /* line 3, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-grid-view {
+    background: rgba(102, 102, 102, 0.9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 9, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-grid-view .container {
+    display: inline-block;
+  }
+  /* line 13, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-grid-view .breadcrumb {
+    margin-top: 20px;
+  }
+
+  /* line 18, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .icon-blog-page {
+    width: 170px;
+  }
+
+  /* line 22, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-article {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  /* line 26, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-article .list-blog-page {
+    display: block;
+    text-align: center;
+  }
+  /* line 32, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-article .list-blog-page .list-cards-article {
+    margin-right: 0;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  /* line 38, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-article .list-blog-page .image-blog {
+    margin-bottom: 15px;
+  }
+  /* line 42, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-article .list-blog-page .title-blog {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  /* line 51, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .blog-grid-view .container {
+    display: block;
+  }
+
+  /* line 55, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .list-blog-page {
+    text-align: center;
+  }
+
+  /* line 59, ../../../../sass/layout/pages/blog/megia-blog.scss */
+  .list-blog-page .list-cards-article {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 599px) {
+
+  .portfilio {
+    padding-bottom:50px;
+  }
+
+  .header-portfolio {
+    margin-bottom: 0;
+  }
+
+  .nav-tabs .nav-link {
+    margin: 10px 6px 23px;
+    font-size: 12px;
+  }
+}
+
+  @media screen and (min-width: 600px) and (max-width: 992px) {
+
+    .header-portfolio{
+      margin-bottom: 0;
+    }
+
+  }

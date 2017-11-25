@@ -1,0 +1,200 @@
+@media screen and (max-width: 599px) {
+  .post-blog .container {
+    display: block;
+
+    .first-post .main-img {
+      width: 100%;
+    }
+  }
+
+  .first-post {
+    p {
+      width: 100%;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+  }
+
+  .first-post blockquote {
+    width: 100%;
+  }
+
+  .image-article {
+    text-align: center;
+
+    img {
+      margin-right: 10px;
+      margin-bottom: 15px;
+    }
+
+    img:last-child {
+      margin-right: 10px;
+    }
+  }
+
+  .article-footer {
+    width: 100%;
+  }
+
+  .first-post {
+    padding-bottom: 40px;
+  }
+
+  .related-posts {
+    display: block;
+  }
+
+  .post {
+    margin-right: 0;
+  }
+
+  .sidebar {
+    margin: 0 auto 50px;
+  }
+
+  .categories {
+    width: 210px;
+  }
+  .recent-comments {
+    width: 210px;
+  }
+
+  .works {
+    width: 210px;
+  }
+
+  .tag-cloud {
+    width: 210px;
+  }
+
+  .form-blog {
+    display: block;
+
+    .textarea-message {
+      width: 100%;
+    }
+
+    .button-transparent {
+      margin-left: 0;
+    }
+  }
+
+  .comment {
+    width: 100%;
+
+    p{
+      width: 100%;
+    }
+  }
+
+  .comment-2 {
+    margin-left: 0;
+  }
+
+  .header-text{
+    width: 100%;
+  }
+
+  .date-comments {
+    width: 100%;
+  }
+}
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+  .post-blog .container {
+    display: block;
+
+    .first-post .main-img {
+      width: 100%;
+    }
+  }
+
+  .first-post {
+    p {
+      width: 100%;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+  }
+
+  .first-post blockquote {
+    width: 100%;
+  }
+
+  .image-article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      margin-right: 10px;
+      margin-bottom: 15px;
+    }
+
+  }
+
+  .article-footer {
+    width: 100%;
+  }
+
+  .first-post {
+    padding-bottom: 40px;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  .categories {
+    width: 210px;
+    margin: 0 auto;
+  }
+  .recent-comments {
+    margin-bottom: 50px;
+    width: 210px;
+  }
+
+  .works {
+    text-align: center;
+    width: 210px;
+    margin: 0 auto;
+  }
+
+  .tag-cloud {
+      width: 210px;
+  }
+
+  .form-blog {
+    display: block;
+
+    .textarea-message {
+      width: 100%;
+    }
+    .button-transparent {
+      margin-left: 0;
+    }
+  }
+
+  .comment {
+    width: 100%;
+
+    p{
+      width: 100%;
+    }
+  }
+
+  .header-text{
+    width: 100%;
+  }
+
+  .date-comments {
+    width: 100%;
+  }
+}
